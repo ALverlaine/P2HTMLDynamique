@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <!-- Chargement de la librairie Javascript à utiliser -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+  
+  <title>Un graphique en batonnets</title>
+ </head>
+ <body>
+   
+   <canvas id="graphique" width="100px" height="40px"></canvas>
+   <script>
+ // l'identifiant est celui du canevas
+ var ctx = document.getElementById('graphique').getContext('2d');
+ // création du graphique
+ var myChart = new Chart(ctx, {
+ type: 'line',   // le type du graphique
+ data: {        // les données
+  labels: ["2020-02-05","2020-02-06","2020-02-07","2020-02-08","2020-02-09","2020-02-10","2020-02-11","2020-02-12","2020-02-13","2020-02-14","2020-02-15","2020-02-16","2020-02-17","2020-02-18","2020-02-19","2020-02-20","2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17"],
+     datasets: [{
+                 borderColor: "#315177",
+                 backgroundColor: "#A8C6D8",
+                 label: 'Contamination totale en Belgique',
+                 data: [1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,8.0,8.0,23.0,50.0,109.0,169.0,200.0,239.0,267.0,314.0,314.0,599.0,689.0,1085.0,1085.0]
+                }]
+        }
+      }
+ );
+   </script>
+
+ </body>
+</html>
