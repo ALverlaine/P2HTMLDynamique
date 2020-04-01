@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a64f706-0257-4722-b7b8-c3e4600c564a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZPTUk9nN1QbXVb28iebaTUPl5Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="préproj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="préproj" type="Python.FlaskServer">
+      <module name="préproj" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a64f706-0257-4722-b7b8-c3e4600c564a" name="Default Changelist" comment="" />
+      <created>1584739746383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584739746383</updated>
+      <workItem from="1584739765688" duration="2134000" />
+      <workItem from="1584783250300" duration="13138000" />
+      <workItem from="1584830439080" duration="6632000" />
+      <workItem from="1584954151807" duration="1976000" />
+      <workItem from="1584956154609" duration="242000" />
+      <workItem from="1584958304557" duration="14245000" />
+      <workItem from="1585005522523" duration="6729000" />
+      <workItem from="1585041869826" duration="33404000" />
+      <workItem from="1585154252411" duration="2126000" />
+      <workItem from="1585245995618" duration="16000" />
+      <workItem from="1585513287085" duration="4861000" />
+      <workItem from="1585698881739" duration="172000" />
+      <workItem from="1585751555031" duration="620000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="727" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585006907913">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="727" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585006907913" />
+    <state x="859" y="436" key="FileChooserDialogImpl" timestamp="1585698976377">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="801" y="420" key="FileChooserDialogImpl/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1584829095690" />
+    <state x="859" y="436" key="FileChooserDialogImpl/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1585698976377" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1585519077231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585519077231" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1585519077231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585519077231" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1585519077231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585519077231" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1585519077231">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585519077231" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1585094845667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585094845667" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1585094845666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585094845666" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1585094845666">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585094845666" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1585094845667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585094845667" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1585085548041">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585085548041" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1584960267355">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1584960267355" />
+    <state x="721" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1585698885443">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-2560.-185.2048.1112@0.0.1920.1040" timestamp="1585245995590" />
+    <state x="721" y="357" key="com.intellij.ide.util.TipDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1585698885443" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/préproj$préproj.coverage" NAME="préproj Coverage Results" MODIFIED="1585519077224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

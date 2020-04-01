@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block head %}
+    <title>Coucou</title>
+{% endblock %}
+
+
+{% block body %}
+    <canvas id="myChart" width="500" height="150"></canvas>
+    <script>
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var myChart = new Chart(ctx, {
+        type: 'line',
+
+        data: {
+            labels: {{ date|tojson }},
+            datasets: [{
+                borderColor: "#315177",
+                backgroundColor: "rgba(168, 198, 216, 0.2)",
+                label: 'Belgium',
+                data: {{ ca|safe }},
+                {% endfor %}
+
+        }]
+        }
+    });
+    </script>
+
+{% endblock %}
