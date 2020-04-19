@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IngiGraph</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <link rel="icon" href="graphIcon.png"  />
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <!-- Chargement de la librairie Javascript à utiliser -->
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+  
+  <title>COVID-19 : contamination</title>
+ </head>
+ <body>
+       <!-- Navbar -->
+       <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img src="graphIcon.png" width="40" height="28">
+            <h1 class="title"> &nbsp; IngiGraph </h1>
+          </a>
+      
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+      
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="./home.html">
+              Home
+            </a>
+      
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Cours
+              </a>
+      
+              <div class="navbar-dropdown">
+                <a class="navbar-item" href="./index.html">
+                  Cours 1
+                </a>
+                <a class="navbar-item" href="./index.html">
+                  Cours 2
+                </a>
+                <a class="navbar-item"href="./index.html">
+                  Cours 3
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light">
+                  Log in
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- End navbar -->
+    <br>
+   
+   <canvas id="graphique" width="100px" height="40px"></canvas>
+   <script>
+ // l'identifiant est celui du canevas
+ var ctx = document.getElementById('graphique').getContext('2d');
+ // création du graphique
+ var myChart = new Chart(ctx, {
+ type: 'line',   // le type du graphique
+ data: {        // les données
+  labels: ["2019-12-31","2020-01-01","2020-01-02","2020-01-03","2020-01-04","2020-01-05","2020-01-06","2020-01-07","2020-01-08","2020-01-09","2020-01-10","2020-01-11","2020-01-12","2020-01-13","2020-01-14","2020-01-15","2020-01-16","2020-01-17","2020-01-18","2020-01-19","2020-01-20","2020-01-21","2020-01-22","2020-01-23","2020-01-24","2020-01-25","2020-01-26","2020-01-27","2020-01-28","2020-01-29","2020-01-30","2020-01-31","2020-02-01","2020-02-02","2020-02-03","2020-02-04","2020-02-05","2020-02-06","2020-02-07","2020-02-08","2020-02-09","2020-02-10","2020-02-11","2020-02-12","2020-02-13","2020-02-14","2020-02-15","2020-02-16","2020-02-17","2020-02-18","2020-02-19","2020-02-20","2020-02-21","2020-02-22","2020-02-23","2020-02-24","2020-02-25","2020-02-26","2020-02-27","2020-02-28","2020-02-29","2020-03-01","2020-03-02","2020-03-03","2020-03-04","2020-03-05","2020-03-06","2020-03-07","2020-03-08","2020-03-09","2020-03-10","2020-03-11","2020-03-12","2020-03-13","2020-03-14","2020-03-15","2020-03-16","2020-03-17","2020-03-18","2020-03-19","2020-03-20","2020-03-21",],
+     datasets: [{
+                 borderColor: "#315177",
+                 backgroundColor: "rgba(168, 198, 216, 0.2)",
+                 label: 'Contamination totale en Belgique',
+                 data:[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 8, 13, 23, 50, 109, 169, 200, 239, 267, 314, 399, 559, 689, 886, 1085, 1243, 1486, 1795, 2257]
+                },
+                {
+                  borderColor: "#cc0000",
+                  backgroundColor: "rgba(255, 102, 102, 0.2)",
+                  label: 'Contamination totale en France',
+                  data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 4, 5, 6, 6, 6, 6, 6, 6, 6, 6, 11, 11, 11, 11, 11, 11, 11, 11, 11, 12, 12, 12, 12, 12, 12, 12, 12, 12, 14, 17, 38, 57, 100, 130, 178, 212, 285, 423, 613, 716, 1126, 1412, 1784, 2281, 2876, 3661, 4499, 5423, 6633, 7730, 9134, 10995, 12612]
+                },
+                {
+                  borderColor: "#006600",
+                  backgroundColor: "rgba(0, 204, 0, 0.2)",
+                  label: 'Contamination totale en Italie',
+                  data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 17, 79, 132, 229, 322, 400, 650, 888, 1128, 1689, 1835, 2502, 3089, 3858, 4636, 5883, 7375, 9172, 10149, 12462, 15113, 17660, 17750, 23980, 27980, 31506, 35713, 41035, 47021]
+                },
+                {
+                  borderColor: "#400080",
+                  backgroundColor: "rgba(191, 128, 255, 0.2)",
+                  label: 'Contamination totale en Chine',
+                  data: [27, 27, 27, 44, 44, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 59, 63, 80, 216, 235, 386, 526, 623, 882, 1323, 1988, 2775, 4528, 5994, 7734, 9714, 11809, 14399, 17211, 20448, 24320, 28047, 31207, 34625, 37232, 40206, 42696, 44724, 59865, 64021, 66559, 68566, 70618, 72508, 74258, 74652, 75543, 76369, 77016, 77234, 77749, 78159, 78598, 78927, 79355, 79929, 80134, 80261, 80380, 80497, 80667, 80768, 80814, 80859, 80879, 80908, 80932, 80954, 80973, 80995, 81020, 81130, 81163, 81238, 81337, 81416]
+                },
+                {
+                  borderColor: "#990066",
+                  backgroundColor: "rgba(255, 128, 213, 0.2)",
+                  label: 'Contamination totale au Royaume-Uni',
+                  data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 2, 2, 2, 2, 2, 2, 3, 3, 4, 4, 8, 8, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 13, 13, 13, 13, 16, 18, 23, 36, 40, 51, 85, 115, 163, 206, 273, 321, 373, 456, 590, 707, 1140, 1391, 1543, 1950, 2630, 3277, 3983]
+                },
+                {
+                  borderColor: "#b34700",
+                  backgroundColor: "rgba(255, 133, 51, 0.2)",
+                  label: 'Contamination totale aux Etats-Unis',
+                  data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 2, 2, 5, 5, 5, 5, 6, 7, 8, 11, 11, 11, 12, 12, 12, 12, 12, 13, 13, 14, 15, 15, 15, 15, 15, 15, 15, 16, 35, 35, 35, 53, 53, 59, 60, 66, 69, 89, 103, 125, 159, 233, 338, 433, 554, 754, 1025, 1312, 1663, 2174, 2951, 3774, 4661, 6427, 9415, 14250, 19624]
+                }]
+        }
+      }
+ );
+   </script>
+
+ </body>
+</html>
