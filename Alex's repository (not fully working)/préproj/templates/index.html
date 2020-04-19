@@ -8,19 +8,20 @@
 {% block body %}
     <canvas id="myChart" width="500" height="150"></canvas>
     <script>
+    var i = 0;
     var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
         type: 'line',
-
         data: {
             labels: {{ date|tojson }},
             datasets: [{
-                borderColor: "#315177",
-                backgroundColor: "rgba(168, 198, 216, 0.2)",
-                label: 'Belgium',
-                data: {{ ca|safe }},
-                {% endfor %}
+                for( i; i < Pays.length; i++){
+                    borderColor: "#315177",
+                    backgroundColor: "rgba(168, 198, 216, 0.2)",
+                    label: {{ Pays[i] }},
+                    data: {{ Cas[i] }},
 
+    },
         }]
         }
     });

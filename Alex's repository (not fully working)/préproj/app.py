@@ -51,7 +51,7 @@ def index():
             if i != 0:
                 ntable.append(ndata)
         print(ntable)
-    return render_template('index.html', Cas=ntable, date=labels)
+    return render_template('index.html', Cas=ntable, date=labels, Pays=all)
 
 
 @app.route('/<country>/<total_cases>')
