@@ -27,6 +27,15 @@
     <!-- chart.js link -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
+
+    <!-- Dropdown Structure -->
+    <ul id="dropdown1" class="dropdown-content">
+      <li><a href="cours1.html">LSINF1252</a></li>
+        <li class="divider"></li>
+      <li><a href="cours2.html">LEPL1402</a></li>
+      <li class="divider"></li>
+      <li><a href="cours3.html">LSINF1101</a></li>
+    </ul>
     <!-- This is the navbar -->
     <nav class="blue lighten-1">
         <div class="container">
@@ -35,6 +44,8 @@
             <ul  class="right hide-on-med-and-down">
                 <li><a href="/">Home</a></li>
                 <li><a href="cours.html">Cours</a></li>
+                <!-- dropdown trigger-->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">arrow_drop_down</i></a></li>
             </ul>
         </div>
     </nav>
@@ -42,11 +53,14 @@
     <ul class="sidenav" id="mobile-links">
         <li><a href="/">Home</a> </li>
         <li><a href="cours.html">Cours</a> </li>
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons">arrow_drop_down</i></a></li>
+
     </ul>
-    <!-- function for the menu in mobile view-->
+    <!-- function for the menu in mobile view and dropdown-->
     <script>
         $(document).ready(function () {
             $('.sidenav').sidenav();
+            $(".dropdown-trigger").dropdown();
 
         })
     </script>
