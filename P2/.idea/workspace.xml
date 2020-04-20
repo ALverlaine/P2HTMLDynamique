@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../P2_part2_Iris" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager" selected="Flask server.Flask (app.py)">
@@ -95,7 +95,7 @@
       <workItem from="1587312969090" duration="10662000" />
       <workItem from="1587333481572" duration="3244000" />
       <workItem from="1587337971397" duration="2358000" />
-      <workItem from="1587380074759" duration="6535000" />
+      <workItem from="1587380074759" duration="8934000" />
     </task>
     <task id="LOCAL-00001" summary="Evolution of the site, ajout du corp de la page cours (non fini)debut de la structure des pages cours1,2,3">
       <created>1587386204864</created>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587387718478</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="drop down menu fixed">
+      <created>1587390689516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587390689516</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,21 +127,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Evolution of the site, ajout du corp de la page cours (non fini)debut de la structure des pages cours1,2,3" />
     <MESSAGE value="cours1,2,3 structure + dropdown menu added" />
-    <option name="LAST_COMMIT_MESSAGE" value="cours1,2,3 structure + dropdown menu added" />
+    <MESSAGE value="drop down menu fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop down menu fixed" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587338056433">
+    <state x="422" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587396163404">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state x="463" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587338056433" />
-    <state x="635" y="134" key="CommitChangelistDialog2" timestamp="1587387718037">
+    <state x="422" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587396163404" />
+    <state x="635" y="134" key="CommitChangelistDialog2" timestamp="1587390689060">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state x="635" y="134" key="CommitChangelistDialog2/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587387718037" />
-    <state x="789" y="295" key="FileChooserDialogImpl" timestamp="1587339519035">
+    <state x="635" y="134" key="CommitChangelistDialog2/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587390689060" />
+    <state x="789" y="295" key="FileChooserDialogImpl" timestamp="1587395335703">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state x="789" y="295" key="FileChooserDialogImpl/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587339519035" />
+    <state x="789" y="295" key="FileChooserDialogImpl/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587395335703" />
     <state width="1778" height="295" key="GridCell.Tab.0.bottom" timestamp="1587390651530">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
