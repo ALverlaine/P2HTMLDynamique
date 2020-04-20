@@ -11,15 +11,15 @@ def hello_world():
 def cours():
     return render_template('cours.html')
 
-@app.route('/cours/cours1.html')
+@app.route('/cours1.html')
 def cours1():
     return render_template('cours/cours1.html')
 
-@app.route('/cours/cours2.html')
+@app.route('/cours2.html')
 def cours2():
     return render_template('cours/cours2.html')
 
-@app.route('/cours/cours3.html')
+@app.route('/cours3.html')
 def cours3():
     return render_template('cours/cours3.html')
 
