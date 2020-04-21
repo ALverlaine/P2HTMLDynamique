@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="164a75ad-60db-430b-be1d-327d00295503" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P2_part2_Iris/Premiere_ebauche/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/../P2_part2_Iris/Premiere_ebauche/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +99,9 @@
       <workItem from="1587312969090" duration="10662000" />
       <workItem from="1587333481572" duration="3244000" />
       <workItem from="1587337971397" duration="2358000" />
-      <workItem from="1587380074759" duration="8934000" />
+      <workItem from="1587380074759" duration="10134000" />
+      <workItem from="1587399283065" duration="810000" />
+      <workItem from="1587455938107" duration="7495000" />
     </task>
     <task id="LOCAL-00001" summary="Evolution of the site, ajout du corp de la page cours (non fini)debut de la structure des pages cours1,2,3">
       <created>1587386204864</created>
@@ -135,44 +141,53 @@
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
     <state x="422" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587396163404" />
-    <state x="635" y="134" key="CommitChangelistDialog2" timestamp="1587390689060">
+    <state x="635" y="134" key="CommitChangelistDialog2" timestamp="1587467524438">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
+    <state x="635" y="134" key="CommitChangelistDialog2/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587467524438" />
     <state x="635" y="134" key="CommitChangelistDialog2/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587390689060" />
-    <state x="789" y="295" key="FileChooserDialogImpl" timestamp="1587395335703">
+    <state x="789" y="295" key="FileChooserDialogImpl" timestamp="1587399305633">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state x="789" y="295" key="FileChooserDialogImpl/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587395335703" />
-    <state width="1778" height="295" key="GridCell.Tab.0.bottom" timestamp="1587390651530">
+    <state x="789" y="295" key="FileChooserDialogImpl/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399305633" />
+    <state width="1778" height="211" key="GridCell.Tab.0.bottom" timestamp="1587467478328">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state width="1778" height="295" key="GridCell.Tab.0.bottom/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587390651530" />
-    <state width="1778" height="295" key="GridCell.Tab.0.center" timestamp="1587390651530">
+    <state width="1778" height="211" key="GridCell.Tab.0.bottom/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587467478328" />
+    <state width="1778" height="211" key="GridCell.Tab.0.bottom/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399493717" />
+    <state width="1778" height="211" key="GridCell.Tab.0.center" timestamp="1587467478328">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state width="1778" height="295" key="GridCell.Tab.0.center/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587390651530" />
-    <state width="1778" height="295" key="GridCell.Tab.0.left" timestamp="1587390651530">
+    <state width="1778" height="211" key="GridCell.Tab.0.center/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587467478328" />
+    <state width="1778" height="211" key="GridCell.Tab.0.center/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399493716" />
+    <state width="1778" height="211" key="GridCell.Tab.0.left" timestamp="1587467478328">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state width="1778" height="295" key="GridCell.Tab.0.left/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587390651530" />
-    <state width="1778" height="295" key="GridCell.Tab.0.right" timestamp="1587390651530">
+    <state width="1778" height="211" key="GridCell.Tab.0.left/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587467478328" />
+    <state width="1778" height="211" key="GridCell.Tab.0.left/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399493716" />
+    <state width="1778" height="211" key="GridCell.Tab.0.right" timestamp="1587467478328">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state width="1778" height="295" key="GridCell.Tab.0.right/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587390651530" />
+    <state width="1778" height="211" key="GridCell.Tab.0.right/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587467478328" />
+    <state width="1778" height="211" key="GridCell.Tab.0.right/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399493716" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1587332803485">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587332803485" />
-    <state x="706" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587380088133">
+    <state x="706" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587399283442">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
-    <state x="706" y="364" key="com.intellij.ide.util.TipDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587380088133" />
+    <state x="706" y="364" key="com.intellij.ide.util.TipDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399283442" />
     <state x="818" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587340872163">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
     <state x="818" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587340872163" />
+    <state x="672" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1587467119633">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="672" y="235" width="672" height="678" key="search.everywhere.popup/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587467119633" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/P2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1587390651530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1587467478320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
