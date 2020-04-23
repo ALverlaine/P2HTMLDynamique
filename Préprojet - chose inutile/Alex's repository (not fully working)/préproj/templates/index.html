@@ -15,11 +15,10 @@
         data: {
             labels: {{ date|tojson }},
             datasets: [{
-                for( i; i < Pays.length; i++){
                     borderColor: "#315177",
                     backgroundColor: "rgba(168, 198, 216, 0.2)",
                     label: {{ Pays[i] }},
-                    data: {{ Cas[i] }},
+                    data: {{ Cas }},
 
     },
         }]

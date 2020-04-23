@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="164a75ad-60db-430b-be1d-327d00295503" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../db/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../db/V2/.idea/V2.iml" afterDir="false" />
+    <list default="true" id="164a75ad-60db-430b-be1d-327d00295503" name="Default Changelist" comment="fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/cours/cours1.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/cours/cours1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../db/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db/.idea/sqlite.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../db/.idea/sqlite.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../db/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../db/V2/sqlite/extracteur_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../db/V2/sqlite/extracteur_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Préprojet - chose inutile/Alex's repository (not fully working)/préproj/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Préprojet - chose inutile/Alex's repository (not fully working)/préproj/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Préprojet - chose inutile/Alex's repository (not fully working)/préproj/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Préprojet - chose inutile/Alex's repository (not fully working)/préproj/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Préprojet - chose inutile/Alex's repository (not fully working)/préproj/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Préprojet - chose inutile/Alex's repository (not fully working)/préproj/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +58,32 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Préprojet - chose inutile/Alex's repository (not fully working)/préproj" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="sqlfunc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sqlfunc.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (app.py)" type="Python.FlaskServer" nameIsGenerated="true">
       <module name="P2" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -94,6 +114,11 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sqlfunc" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -111,7 +136,9 @@
       <workItem from="1587380074759" duration="10134000" />
       <workItem from="1587399283065" duration="810000" />
       <workItem from="1587455938107" duration="12425000" />
-      <workItem from="1587555596753" duration="779000" />
+      <workItem from="1587555596753" duration="898000" />
+      <workItem from="1587556680809" duration="8459000" />
+      <workItem from="1587649500163" duration="1269000" />
     </task>
     <task id="LOCAL-00001" summary="Evolution of the site, ajout du corp de la page cours (non fini)debut de la structure des pages cours1,2,3">
       <created>1587386204864</created>
@@ -148,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587476169361</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix">
+      <created>1587556482565</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587556482565</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,55 +194,58 @@
     <MESSAGE value="drop down menu fixed" />
     <MESSAGE value="refonte de la page index !" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="WindowStateProjectService">
     <state x="422" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587396163404">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
     <state x="422" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587396163404" />
-    <state x="635" y="134" key="CommitChangelistDialog2" timestamp="1587476168901">
-      <screen x="99" y="0" width="1821" height="1080" />
+    <state x="634" y="134" key="CommitChangelistDialog2" timestamp="1587556878349">
+      <screen x="98" y="0" width="1822" height="1080" />
     </state>
+    <state x="634" y="134" key="CommitChangelistDialog2/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587556878349" />
     <state x="635" y="134" key="CommitChangelistDialog2/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587476168901" />
     <state x="635" y="134" key="CommitChangelistDialog2/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587390689060" />
-    <state x="788" y="295" key="FileChooserDialogImpl" timestamp="1587481300852">
+    <state x="788" y="295" key="FileChooserDialogImpl" timestamp="1587559357540">
       <screen x="98" y="0" width="1822" height="1080" />
     </state>
-    <state x="788" y="295" key="FileChooserDialogImpl/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587481300852" />
+    <state x="788" y="295" key="FileChooserDialogImpl/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587559357540" />
     <state x="789" y="295" key="FileChooserDialogImpl/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587476537656" />
     <state x="789" y="295" key="FileChooserDialogImpl/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399305633" />
-    <state width="1779" height="211" key="GridCell.Tab.0.bottom" timestamp="1587556407288">
+    <state width="1779" height="211" key="GridCell.Tab.0.bottom" timestamp="1587650888021">
       <screen x="98" y="0" width="1822" height="1080" />
     </state>
-    <state width="1779" height="211" key="GridCell.Tab.0.bottom/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587556407288" />
+    <state width="1779" height="211" key="GridCell.Tab.0.bottom/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587650888021" />
     <state width="1778" height="211" key="GridCell.Tab.0.bottom/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587477505746" />
     <state width="1778" height="211" key="GridCell.Tab.0.bottom/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399493717" />
-    <state width="1779" height="211" key="GridCell.Tab.0.center" timestamp="1587556407288">
+    <state width="1779" height="211" key="GridCell.Tab.0.center" timestamp="1587650888021">
       <screen x="98" y="0" width="1822" height="1080" />
     </state>
-    <state width="1779" height="211" key="GridCell.Tab.0.center/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587556407288" />
+    <state width="1779" height="211" key="GridCell.Tab.0.center/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587650888021" />
     <state width="1778" height="211" key="GridCell.Tab.0.center/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587477505746" />
     <state width="1778" height="211" key="GridCell.Tab.0.center/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399493716" />
-    <state width="1779" height="211" key="GridCell.Tab.0.left" timestamp="1587556407288">
+    <state width="1779" height="211" key="GridCell.Tab.0.left" timestamp="1587650888021">
       <screen x="98" y="0" width="1822" height="1080" />
     </state>
-    <state width="1779" height="211" key="GridCell.Tab.0.left/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587556407288" />
+    <state width="1779" height="211" key="GridCell.Tab.0.left/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587650888021" />
     <state width="1778" height="211" key="GridCell.Tab.0.left/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587477505746" />
     <state width="1778" height="211" key="GridCell.Tab.0.left/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399493716" />
-    <state width="1779" height="211" key="GridCell.Tab.0.right" timestamp="1587556407288">
+    <state width="1779" height="211" key="GridCell.Tab.0.right" timestamp="1587650888021">
       <screen x="98" y="0" width="1822" height="1080" />
     </state>
-    <state width="1779" height="211" key="GridCell.Tab.0.right/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587556407288" />
+    <state width="1779" height="211" key="GridCell.Tab.0.right/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587650888021" />
     <state width="1778" height="211" key="GridCell.Tab.0.right/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587477505746" />
     <state width="1778" height="211" key="GridCell.Tab.0.right/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399493716" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1587332803485">
       <screen x="99" y="0" width="1821" height="1080" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587332803485" />
-    <state x="706" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587399283442">
-      <screen x="99" y="0" width="1821" height="1080" />
+    <state x="705" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587649502418">
+      <screen x="98" y="0" width="1822" height="1080" />
     </state>
+    <state x="705" y="364" key="com.intellij.ide.util.TipDialog/98.0.1822.1080/-2497.-185.1985.1152@98.0.1822.1080" timestamp="1587649502418" />
     <state x="706" y="364" key="com.intellij.ide.util.TipDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587399283442" />
     <state x="818" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587340872163">
       <screen x="99" y="0" width="1821" height="1080" />
@@ -220,6 +257,7 @@
     <state x="672" y="235" width="672" height="678" key="search.everywhere.popup/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587467119633" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/P2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1587556407278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1587650888015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/P2$sqlfunc.coverage" NAME="sqlfunc Coverage Results" MODIFIED="1587558415039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
