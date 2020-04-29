@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="164a75ad-60db-430b-be1d-327d00295503" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1alb6WAufnZpLBMLic8z5GRDREm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="Flask (app.py)" type="Python.FlaskServer" nameIsGenerated="true">
+      <module name="P2" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="P2" type="Python.FlaskServer">
+      <module name="P2" />
+      <option name="target" value="$PROJECT_DIR$/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="164a75ad-60db-430b-be1d-327d00295503" name="Default Changelist" comment="" />
+      <created>1587312952297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587312952297</updated>
+      <workItem from="1587312969090" duration="10662000" />
+      <workItem from="1587333481572" duration="3244000" />
+      <workItem from="1587337971397" duration="2358000" />
+      <workItem from="1587380074759" duration="10134000" />
+      <workItem from="1588170302922" duration="264000" />
+    </task>
+    <task id="LOCAL-00001" summary="Evolution of the site, ajout du corp de la page cours (non fini)debut de la structure des pages cours1,2,3">
+      <created>1587386204864</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587386204864</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cours1,2,3 structure + dropdown menu added">
+      <created>1587387718478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587387718478</updated>
+    </task>
+    <task id="LOCAL-00003" summary="drop down menu fixed">
+      <created>1587390689516</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587390689516</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Evolution of the site, ajout du corp de la page cours (non fini)debut de la structure des pages cours1,2,3" />
+    <MESSAGE value="cours1,2,3 structure + dropdown menu added" />
+    <MESSAGE value="drop down menu fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="drop down menu fixed" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="422" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587396163404">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="422" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587396163404" />
+    <state x="635" y="134" key="CommitChangelistDialog2" timestamp="1587390689060">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="635" y="134" key="CommitChangelistDialog2/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587390689060" />
+    <state x="789" y="295" key="FileChooserDialogImpl" timestamp="1587395335703">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="789" y="295" key="FileChooserDialogImpl/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587395335703" />
+    <state width="1769" height="194" key="GridCell.Tab.0.bottom" timestamp="1588170440453">
+      <screen x="108" y="0" width="1812" height="1080" />
+    </state>
+    <state width="1769" height="194" key="GridCell.Tab.0.bottom/-2474.0.1962.1152/108.0.1812.1080@108.0.1812.1080" timestamp="1588170440453" />
+    <state width="1761" height="210" key="GridCell.Tab.0.bottom/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587398999093" />
+    <state width="1769" height="194" key="GridCell.Tab.0.center" timestamp="1588170440453">
+      <screen x="108" y="0" width="1812" height="1080" />
+    </state>
+    <state width="1769" height="194" key="GridCell.Tab.0.center/-2474.0.1962.1152/108.0.1812.1080@108.0.1812.1080" timestamp="1588170440453" />
+    <state width="1761" height="210" key="GridCell.Tab.0.center/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587398999093" />
+    <state width="1769" height="194" key="GridCell.Tab.0.left" timestamp="1588170440453">
+      <screen x="108" y="0" width="1812" height="1080" />
+    </state>
+    <state width="1769" height="194" key="GridCell.Tab.0.left/-2474.0.1962.1152/108.0.1812.1080@108.0.1812.1080" timestamp="1588170440453" />
+    <state width="1761" height="210" key="GridCell.Tab.0.left/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587398999093" />
+    <state width="1769" height="194" key="GridCell.Tab.0.right" timestamp="1588170440453">
+      <screen x="108" y="0" width="1812" height="1080" />
+    </state>
+    <state width="1769" height="194" key="GridCell.Tab.0.right/-2474.0.1962.1152/108.0.1812.1080@108.0.1812.1080" timestamp="1588170440453" />
+    <state width="1761" height="210" key="GridCell.Tab.0.right/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587398999093" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1587332803485">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587332803485" />
+    <state x="706" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587380088133">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="706" y="364" key="com.intellij.ide.util.TipDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587380088133" />
+    <state x="818" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587340872163">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="818" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587340872163" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/P2$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1588170440448" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

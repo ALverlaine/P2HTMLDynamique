@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for
-from sqlfunc import db_to_graph_label
+import extracteur_db
+import sqlfunc
 import html.parser as htmlparser
 app = Flask(__name__)
 
@@ -15,7 +16,7 @@ def cours():
 
 @app.route('/cours1.html')
 def cours1():
-    l = db_to_graph_label("LSINF1252")
+    l = sqlfunc.db_to_graph_label("LSINF1252")
     labels = l[1]
     cours = '{}'.format(l[0])
     val = l[2]
