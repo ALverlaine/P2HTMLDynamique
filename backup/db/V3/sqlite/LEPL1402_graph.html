@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+        <title>Nombre de soumissions par tâches pour le cours : LEPL1402</title>
+    </head>
+    <body>
+        <canvas id="graphique" width="200" height="100"></canvas>
+        <script>
+            var ctx = document.getElementById('graphique').getContext('2d');
+            var myChart = new Chart(ctx,{
+                type:'bar',
+                data:{
+                labels: ['BubbleSortInvariant', 'ComplexityArraySearch', 'MaximumSumSubarray', 'HanoiTower', 'SieveOfEratosthenesImplementation', 'SieveOfEratosthenesMCQ', 'CircularLL', 'ComplexityMCQ1', 'Fibonacci', 'StackWithQueue', 'MyArrayList', 'MergeSortImplementation', 'valley', 'ComparatorAndCollections', 'ComplexitySpaceMCQ', 'StringUtils', 'ASCIIDecoder', 'QueueWithStacks', 'ValueOrReference', 'AccessModifiers', 'Casting', 'CommonErrors', 'TreeSame', 'complexityMCQ2', 'TreeInorder', 'TreeCombineWith', 'MidTermQuiz', 'Inheritance', 'Generics3', 'Introduction', 'Array2D', 'Generics', 'Generics2', 'LearnException', 'MakeMistakeToUnderstandThem', 'BlackBox', 'Coverage', 'ComparatorvsComparable', 'AbstractClass', 'MidTermQuizMCQ', 'MidTermQuizMCQ2', 'Factory', 'Observer', 'VisitorBasic', 'Visitor', 'LambdaExpressioninJava', 'Streams', 'Streams2', 'FList', 'FListMergeSort', 'FTree', 'Future', 'ThreadsIntroduction', 'SharedCounter', 'BoundedBuffer', 'ProducerConsumer', 'CyclicBarrier', 'ParallelelMergeSort', 'Optional', 'CodeAccuracy', 'PostScript', 'CodeAccuracy2', 'fail', 'InfiniteStreams'],
+                datasets: [{
+                            borderColor: "#315177",
+                            backgroundColor: "rgba(168, 198, 216, 0.2)",
+                            borderWidth:2,
+                            label: 'Nombre de soumissions',
+                            data:[6796, 2733, 3592, 2331, 2589, 1202, 3502, 9731, 3793, 2057, 2454, 2666, 2198, 1992, 1863, 3234, 1560, 1370, 1196, 2684, 1939, 2941, 2172, 3471, 1363, 1350, 1998, 1075, 767, 9074, 3175, 1353, 854, 3534, 3736, 5984, 2849, 2067, 2254, 781, 660, 3551, 1552, 1291, 794, 1814, 3148, 1513, 2059, 1288, 1308, 1012, 1242, 2375, 1978, 2806, 1643, 1487, 1127, 4, 10, 27, 2, 19]
+                            }]
+                    }
+                }
+            );
+        </script>
+
+    </body>
+</html>

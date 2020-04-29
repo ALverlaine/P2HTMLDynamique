@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+        <title>Nombre de soumissions par tâches pour le cours : LSINF1252</title>
+    </head>
+    <body>
+        <canvas id="graphique" width="200" height="100"></canvas>
+        <script>
+            var ctx = document.getElementById('graphique').getContext('2d');
+            var myChart = new Chart(ctx,{
+                type:'bar',
+                data:{
+                labels: ['asm1', 'EmployeList', 'alist', 'asm3', 'Search_and_replace', 'intersection', 'Vectorfile', 'fork', 'DoubleLL', 'strsplit', 'asm4', 'run_redir', 'asm2', 'reverse', 'bits_spin', 'bits_sum', 'shell', 'PC', 'matrix-mult', 's5_big_array_get_set', 's4_file_save_struct', 's5_file_copy', 'bits_rightmost', 'insertion-sort', 'swap2int', 'mini-projet-string', 'palindrome', 'strcpy', 'set_bit', 'multi-free', 'struct_cmp', 'factorial', 'basic_linked_list', 'simple_stack', 'linked_structs', 'advanced_queue', 'main_argc', 's4_read_file_array_integer', 'order_relation_linked_list', 'bitwise-ops', 'swap', 'count_zero', 'stack_vs_heap', 'BST', 's5_file_exists', 'bits_strong', 'poly', 'absolute_value', 'tab_find', 'printf', 'calloc2', 'types', 'pointer_types', 'modem_read', 'commandetest', 'sleep_malloc', 'cmp_func', 'bits_leftmost', 'hexadecimal', 'bookstore', 'index-text', 's2_make', 's2_make_calc', 'p3check', 's2_make_mcq', 'btree-access', 's1_grep', 's1_ctf1', 's1_ctf2', 's1_pipes', 's1_tar', 's1_diff', 'my-sem', 'soumission-projet-cracker', 'rpn-calc', 'gcd', 's3_cunit_basics'],
+                datasets: [{
+                            borderColor: "#315177",
+                            backgroundColor: "rgba(168, 198, 216, 0.2)",
+                            borderWidth:2,
+                            label: 'Nombre de soumissions',
+                            data:[1175, 1406, 1355, 555, 1641, 969, 1049, 1775, 1252, 793, 843, 1572, 793, 2084, 628, 382, 1017, 1034, 109, 1973, 1095, 1813, 427, 35, 550, 2167, 2423, 325, 616, 1659, 1001, 756, 835, 1992, 2674, 1882, 3445, 1472, 2909, 78, 600, 329, 216, 767, 674, 895, 30, 518, 500, 1941, 1163, 469, 956, 1133, 785, 373, 431, 559, 45, 2, 5, 489, 596, 397, 383, 11, 953, 557, 385, 471, 540, 376, 19, 640, 4, 28, 3]
+                            }]
+                    }
+                }
+            );
+        </script>
+
+    </body>
+</html>

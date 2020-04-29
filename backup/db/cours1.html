@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+        <title>Covid 19:visualisation des données</title>
+    </head>
+    <body>
+        <canvas id="graphique" width="200" height="100"></canvas>
+        <script>
+            var ctx = document.getElementById('graphique').getContext('2d');
+            var myChart = new Chart(ctx,{
+                type:'bar',
+                data:{
+                labels: ['TextToDic', 'BinarySearch', 'LinkedListInit', 'Fibonacci', 'PairOrdered', 'DebtReminder', 'LinkedListEndRemove', 'Hogwarts-II', 'ZooGame', 'DestroyAllEnnemies', 'DictCreation', 'PatternExtraction-II', 'Session4_QCM', 'Coordinates', 'FileReading', 'LinkedListRemove', 'DiffCount', 'QBF04', 'Interests', 'LinkedListStr', '2degree', 'LinkedListInsert', 'DictKeyAccess', 'SpeedingFine', 'Exam-PlusFrequent', 'LoadSaveGame', 'Sum', 'QBF10', 'Average', 'Hello', 'SMSStore', 'Equals', 'Hogwarts-IV', 'Ticket', 'Triangle', 'LinkedList', 'Translator', '2degree2', 'DoubleLink', 'StudentFileReading', 'StudentConstructor', 'PairOpposite', 'Session6_QCM', 'Hogwarts-I', 'Morse', 'Exam-LoadMatrix', 'Quetelet', 'StudentInit', 'LinkedListChildren', 'QBF01', 'QBF11', 'DictCreationMax', 'Carre', 'PairSame', 'Ajoute', 'PatternExtraction-I', 'Factorial', 'Session2_QCM', 'AmazonPay', 'Recherche', 'QBF06', 'Session10_QCM', 'Hogwarts-III', 'Session10_2019_QCM', 'Hogwarts-V', 'QBF02', 'Exam-RainFall', 'Interval', 'RSTTable', 'Session3_QCM', 'Min', 'AmazonConstructor', 'FizzBuzz', 'REAL04', 'Session9_QCM', 'Median', 'FirstSum', 'DestroyAnEnnemy', 'PatternExtraction-III', 'QBF10_2019', 'GCD', 'QBF09', 'Exam-Enonce', 'QBF03', 'Count', 'REAL05', 'Session7_QCM', 'WrongIterations', 'Bath', 'Primes', 'QBF07', 'Exam-ClientListUpdate', 'MergeList', 'Polynomial', 'QBF05', 'Sort', 'GD', 'Exceptions', 'Session5_QCM', 'SumToComplete', 'Prime', 'Remainder', 'Session11_QCM', 'SimpleMax', 'SimpleFactorial', 'SimpleMath', 'Session1_QCM', 'REAL01', 'REAL02', 'REAL11', 'REAL10', 'REAL07', 'REAL09', 'REAL10_2019', 'REAL06', 'REAL03', 'Max', 'GUI'],
+                datasets: [{
+                            label: '2020-03-24:Nombre total de morts',
+                            data:[2189, 2630, 2625, 3793, 2001, 1087, 1924, 1462, 2606, 2165, 1497, 1619, 4866, 4367, 3413, 1923, 1614, 1516, 1670, 1691, 2698, 3582, 1304, 1572, 2833, 1815, 2230, 1440, 1164, 3314, 2381, 2693, 1096, 2235, 3173, 1109, 1009, 1288, 1281, 2028, 1635, 2759, 3554, 630, 1302, 3949, 1333, 2032, 759, 2676, 953, 1033, 1574, 2114, 1340, 1838, 2064, 1888, 1023, 2099, 1356, 1662, 2034, 1865, 1552, 2546, 1879, 894, 1877, 1821, 857, 2915, 998, 940, 2394, 2534, 3014, 1106, 645, 489, 1741, 1044, 1098, 1578, 1977, 554, 4306, 462, 2026, 2458, 1031, 2075, 2774, 945, 999, 1937, 2230, 916, 1879, 3864, 2491, 1826, 999, 2673, 2237, 1913, 1725, 695, 455, 79, 208, 249, 323, 129, 165, 408, 6, 3]
+                            }]
+                    }
+                }
+            );
+        </script>
+
+
+    </body>
+</html>
