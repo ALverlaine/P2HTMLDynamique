@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="260bfd1a-3f47-42ad-8c5e-8f644037e018" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1anMQ27fvsNN40lQJxbhSHII9Gg" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Python.extracteur_db.py">
+    <configuration name="BM" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="sqlite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BM.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="extracteur_db.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="sqlite" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/extracteur_db.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.BM" />
+      <item itemvalue="Python.extracteur_db.py" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.extracteur_db.py" />
+        <item itemvalue="Python.BM" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="260bfd1a-3f47-42ad-8c5e-8f644037e018" name="Default Changelist" comment="" />
+      <created>1587366884533</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587366884533</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="211" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587473417546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="211" y="135" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1587473417546" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1588077324913">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587386148833" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588077324913" />
+    <state width="1515" height="170" key="GridCell.Tab.0.bottom" timestamp="1588163598702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1453" height="199" key="GridCell.Tab.0.bottom/0.0.1474.864/-1920.-131.1858.1080@0.0.1474.864" timestamp="1587494307856" />
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587496154037" />
+    <state width="1515" height="170" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588163598702" />
+    <state width="1515" height="170" key="GridCell.Tab.0.center" timestamp="1588163598702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1453" height="199" key="GridCell.Tab.0.center/0.0.1474.864/-1920.-131.1858.1080@0.0.1474.864" timestamp="1587494307856" />
+    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587496154037" />
+    <state width="1515" height="170" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588163598702" />
+    <state width="1515" height="170" key="GridCell.Tab.0.left" timestamp="1588163598702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1453" height="199" key="GridCell.Tab.0.left/0.0.1474.864/-1920.-131.1858.1080@0.0.1474.864" timestamp="1587494307856" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587496154036" />
+    <state width="1515" height="170" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588163598702" />
+    <state width="1515" height="170" key="GridCell.Tab.0.right" timestamp="1588163598702">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1453" height="199" key="GridCell.Tab.0.right/0.0.1474.864/-1920.-131.1858.1080@0.0.1474.864" timestamp="1587494307856" />
+    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587496154037" />
+    <state width="1515" height="170" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588163598702" />
+    <state width="1515" height="260" key="GridCell.Tab.1.bottom" timestamp="1588154024416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587496154038" />
+    <state width="1515" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588154024416" />
+    <state width="1515" height="260" key="GridCell.Tab.1.center" timestamp="1588154024416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587496154038" />
+    <state width="1515" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1588154024416" />
+    <state width="1515" height="260" key="GridCell.Tab.1.left" timestamp="1588154024416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587496154037" />
+    <state width="1515" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1588154024416" />
+    <state width="1515" height="260" key="GridCell.Tab.1.right" timestamp="1588154024416">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587496154038" />
+    <state width="1515" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1588154024416" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1587386890161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824/-1920.-131.1920.1040@0.0.1536.824" timestamp="1587386890161" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587560669545">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587560669545" />
+  </component>
+</project>

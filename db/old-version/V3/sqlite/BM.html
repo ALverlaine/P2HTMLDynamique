@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+        <title>Résultats des soumissions pour la tâche "ComplexityArraySearch" pour le cours : LEPL1402</title>
+    </head>
+    <body>
+        <canvas id="graphique" width="200" height="100"></canvas>
+        <script>
+            var ctx = document.getElementById('graphique').getContext('2d');
+            var myChart = new Chart(ctx,{
+                type:'bar',
+                data:{
+                labels: ['failed','killed','success','overflow','timeout','crash','error'],
+                datasets: [{
+
+                            borderColor: ["rgb(255, 99, 132)","rgb(201, 203, 207)","rgb(75, 192, 192)","rgb(255, 205, 86)","rgb(255, 159, 64)","rgb(54, 162, 235)","rgb(153, 102, 255)",],
+                            backgroundColor: ["rgba(255, 99, 132, 0.2)","rgba(168, 198, 216, 0.2)","rgba(75, 192, 192, 0.2)","rgba(255, 205, 86, 0.2)","rgba(255, 159, 64, 0.2)","rgba(54, 162, 235, 0.2)","rgba(153, 102, 255, 0.2)"],
+                            borderWidth:2,
+                            label: 'Résultats des soumissiones pour la tâche "BubbleSortInvariant"',
+                            data:[1727, 82, 647, 0, 275, 1, 0]
+                            }]
+                    }
+                }
+            );
+        </script>
+
+    </body>
+</html>
