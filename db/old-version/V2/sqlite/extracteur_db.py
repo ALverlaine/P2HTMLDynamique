@@ -20,5 +20,5 @@ def db_to_graph(cours):
     return [cours, label, val]
 l=db_to_graph("LSINF1252")
 print(l[0])
-print( l[1])
+print(l[1])
 print(l[2])

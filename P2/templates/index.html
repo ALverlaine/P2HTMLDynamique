@@ -5,6 +5,7 @@
 {% endblock %}
 
 {% block body%}
+    <div>
     <style>
         .bc
 {
@@ -37,10 +38,22 @@
             <div>
                 <h1 class="title">Qu'est-ce ?</h1>
                 <h2 class="subtitle">
-                    <strong>IngiGraph est un site web permettant de visualiser les statistiques tirées d'Ingnious, sous forme de graphiques.</strong>
+                    <strong>IngiGraph</strong> est un site web permettant de visualiser les statistiques tirées d'Ingnious, sous forme de graphiques.
                 </h2>
             </div>
         </section>
+        <section class="section">
+            <!-- section milieu-bas-->
+            <br>
+            <br>
+            <div>
+                <h1 class="title">Objectif du site :</h1>
+                <h2 class="subtitle">
+                    Ce site à été fait dans le cadre d'un projet (P2) en Sciences Informatique à l'EPL. Son but est de rendre des données, provenant d'une database sqlite, sous forme de graphique avec le framework Chart.js
+                </h2>
+            </div>
+        </section>
+
         <section class="section">
             <h1 class="title">Inginious en quelques données</h1>
             <h2 class="subtitle">
@@ -64,27 +77,15 @@
                     <p class="title">800K</p>
                 </div>
             </div>
-
-
-
-
     </section>
-    <footer class="page-footer orange">
-        <div class="row">
-            <div class="col 16 s12">
-                <h5>Objectif de ce site</h5>
-                <p class="grey-text text-lighten-4">
-                    Ce site à été fait dans le cadre d'un projet (P2) en Sciences Informatique à l'EPL. Son but est de rendre des données, provenant d'une database sqlite,
-                    sous forme de graphique avec le framework Chart.js.
-                </p>
-            </div>
-        </div>
-    <div class="footer-copyright">
-        <div class="container">
-            Fait par
-            <a class="grey-text text-lighten-3">Alexandre Verlaine - Iris Denayer - Béatrice Lambert</a>
-        </div>
     </div>
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>IngiGraph</strong>, made with ♥ by Iris Denayer, Béatrice Lambert and Alexandre Verlaine.
+        </p>
+      </div>
     </footer>
     </div>
 {% endblock %}
