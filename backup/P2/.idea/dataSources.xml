@@ -7,5 +7,11 @@
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:C:\Users\alexa\PycharmProjects\P2\inginious.sqlite</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="inginious [2]" uuid="9e2276cc-03ba-464e-b673-6a8a9579c72f">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\alexa\Desktop\P2HTMLDynamique\BACKUP\P2\inginious.sqlite</jdbc-url>
+    </data-source>
   </component>
 </project>

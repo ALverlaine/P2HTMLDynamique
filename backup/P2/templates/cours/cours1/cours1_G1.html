@@ -7,7 +7,7 @@
 {% block body %}
     <div class="container">
         <br>
-        <h1 class="header center blue-text">LEPL1402</h1>
+        <h1 class="header center blue-text">{{cours}}</h1>
     </div>
     <div class="row">
 
@@ -21,23 +21,27 @@
       <div class="col s9">
         <!-- Teal page content  -->
           <div class="container">
-              <h4>
-                  ici sera le graph
-              </h4>
+              <br>
+              <h2>
+                  Graphique :
+              </h2>
+              <br>
+              <br>
               <canvas id="myChart"></canvas>
               <script>
                   var ctx = document.getElementById('myChart').getContext('2d');
                   var chart = new Chart(ctx, {
                       // The type of chart we want to create
-                      type: 'line',
+                      type: '{{type}}',
                       //The data for our dataset
                       data: {
-                          labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                          labels: {{ label|tojson }},
                           datasets: [{
-                              label: 'My First dataset',
-                              backgroundColor: 'rgb(255, 99, 132)',
-                              borderColor: 'rgb(255, 99, 132)',
-                              data: [0, 10, 5, 2, 20, 30, 45]
+                              label: '{{ cours|tojson }}',
+                              backgroundColor: {{bordercolor|tojson}},
+                              borderColor: {{background|tojson}},
+                              borderWidth: 2,
+                              data: {{val}}
                           }]
                       },
                       // Configuration options go here
@@ -46,7 +50,6 @@
               </script>
           </div>
       </div>
-
     </div>
 
 
