@@ -54,7 +54,7 @@ def task_result_graph(cours):
             val.append(i[0])
         full.append(val)
     connection.close()
-    return [cours, 'bar',  ['error', 'overflow', 'timeout', 'killed', 'crash', 'success', 'failed'], full,
+    return [cours, 'pie',  ['error', 'overflow', 'timeout', 'killed', 'crash', 'success', 'failed'], full,
             ['rgb(255, 159, 64)', 'rgb(54, 162, 235)', 'rgb(201, 203, 207)', 'rgb(255, 205, 86)', 'rgb(153, 102, 255)',
              'rgb(75, 192, 192)', 'rgb(255, 99, 132)'],
             ['rgba(255, 159, 64, 0.2)', 'rgba(54, 162, 235, 0.2)', 'rgba(201, 203, 207, 0.2)',
