@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block head %}
+{% endblock %}
+
+
+{% block body %}
+    <div class="container">
+        <br>
+        <h1 class="header center blue-text">LSINF1252</h1>
+    <h3 class="header center">Nombres de soumission entre deux périodes : </h3>
+    </div>
+    <div class="row">
+      <div class="center">
+        <!-- Teal page content  -->
+          <div class="container">
+              <canvas id="myChart"></canvas>
+              <script>
+                  var ctx = document.getElementById('myChart').getContext('2d');
+                  var chart = new Chart(ctx, {
+                      // The type of chart we want to create
+                      type: {{type|tojson}},
+                      //The data for our dataset
+                      data: {
+                          labels: {{ label|tojson }},
+                          datasets: [{
+                              label: '{{ cours|tojson }}',
+                              backgroundColor: 'rgb(255, 99, 132)',
+                              borderColor: 'rgb(255, 99, 132)',
+                              data: {{val}}
+                          }]
+                      },
+                      // Configuration options go here
+                      options: {}
+                  });
+              </script>
+          </div>
+      </div>
+    </div>
+
+
+{% endblock %}

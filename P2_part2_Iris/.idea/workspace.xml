@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a6057ebc-26b3-4090-9cfd-366c955bfe41" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../P2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P2/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../P2/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P2/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../P2/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Premiere_ebauche/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/Premiere_ebauche/home.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1amT0fWG1kDQe0GbiJE0AExrYpL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.home.html">
+    <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/P2_part2_Iris/Premiere_ebauche/home.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="format" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2_part2_Iris" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Premiere_ebauche" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Premiere_ebauche/format.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="Python.format" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a6057ebc-26b3-4090-9cfd-366c955bfe41" name="Default Changelist" comment="" />
+      <created>1587339547355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587339547355</updated>
+      <workItem from="1587339548456" duration="1176000" />
+      <workItem from="1587340743843" duration="10000" />
+      <workItem from="1587395338920" duration="1964000" />
+      <workItem from="1587399307783" duration="1202000" />
+      <workItem from="1587455938264" duration="2213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="789" y="295" key="FileChooserDialogImpl" timestamp="1587340752268">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="789" y="295" key="FileChooserDialogImpl/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587340752268" />
+    <state width="889" height="295" key="GridCell.Tab.0.bottom" timestamp="1587340724172">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state width="889" height="295" key="GridCell.Tab.0.bottom/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587340724172" />
+    <state width="889" height="295" key="GridCell.Tab.0.center" timestamp="1587340724172">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state width="889" height="295" key="GridCell.Tab.0.center/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587340724172" />
+    <state width="889" height="295" key="GridCell.Tab.0.left" timestamp="1587340724172">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state width="889" height="295" key="GridCell.Tab.0.left/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587340724172" />
+    <state width="889" height="295" key="GridCell.Tab.0.right" timestamp="1587340724172">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state width="889" height="295" key="GridCell.Tab.0.right/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587340724172" />
+    <state x="706" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587455953877">
+      <screen x="99" y="0" width="1821" height="1080" />
+    </state>
+    <state x="706" y="364" key="com.intellij.ide.util.TipDialog/99.0.1821.1080/-2497.-185.1985.1152@99.0.1821.1080" timestamp="1587455953877" />
+    <state x="706" y="364" key="com.intellij.ide.util.TipDialog/99.0.1821.1080/-2498.-185.1986.1152@99.0.1821.1080" timestamp="1587340743889" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/P2_part2_Iris$format.coverage" NAME="format Coverage Results" MODIFIED="1587339673754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Premiere_ebauche" />
+  </component>
+</project>

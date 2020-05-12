@@ -10,13 +10,34 @@
         <h1 class="header center blue-text">{{cours}}</h1>
     </div>
     <div class="row">
-
       <div class="col s3">
-        <!-- Grey navigation panel -->
-          <div>
-              <h4> Ici est la légende</h4>
+          <!-- Grey navigation panel -->
+          <div class="">
+              <br>
+              <h2>
+                  Cours disponible :
+              </h2>
+
           </div>
+          <br>
+          <br>
+          <br>
+          <div class="center-align">
+              <select id="liste">
+                  <option selected>Séléctionnez un cours!</option>
+                  <script>
+                      var tasks = {{ tasks|tojson }}
+                      for(i=0; i<tasks.length; i++){
+                          document.write("<option>" + tasks[i] + "</option>")
+                      }
+                  </script>
+              </select>
+          </div>
+          <script>$(document).ready(function(){
+              $('select').formSelect();
+          });</script>
       </div>
+
 
       <div class="col s9">
         <!-- Teal page content  -->
@@ -28,29 +49,52 @@
               <br>
               <br>
               <canvas id="myChart"></canvas>
-              <script>
-                  var ctx = document.getElementById('myChart').getContext('2d');
-                  var chart = new Chart(ctx, {
-                      // The type of chart we want to create
-                      type: '{{type}}',
-                      //The data for our dataset
-                      data: {
-                          labels: {{ label|tojson }},
-                          datasets: [{
-                              label: '{{ cours|tojson }}',
-                              backgroundColor: {{bordercolor|tojson}},
-                              borderColor: {{background|tojson}},
-                              borderWidth: 2,
-                              data: {{val}}
-                          }]
-                      },
-                      // Configuration options go here
-                      options: {}
-                  });
-              </script>
           </div>
       </div>
     </div>
+    <script>
+        data = {{ val|tojson }}
+        var ctx = document.getElementById('myChart').getContext('2d');
+        var selectElem = document.getElementById('liste');
+        var Fchart = new Chart(ctx, {});
+        selectElem.addEventListener('change', function(){
+            var index = selectElem.selectedIndex;
+            myChart =  {
+            // The type of chart we want to create
+            type: '{{type}}',
+            //The data for our dataset
+            data: {
+              labels: {{ label|tojson }},
+              datasets: [{
+                  label: tasks[index-1],
+                  backgroundColor: {{bordercolor|tojson}},
+                  borderColor: {{background|tojson}},
+                  borderWidth: 2,
+                  data: data[index-1]
+          }]
+        }
+        };
+            baseChart = {
+                type: '{{type}}',
+            //The data for our dataset
+            data: {
+                labels: {{ label|tojson }},
+                datasets: [{
+                    label: tasks[index],
+                    backgroundColor: {{bordercolor|tojson}},
+                    borderColor: {{background|tojson}},
+                    borderWidth: 2,
+                    data: data[index]
+                }]
+            }};
+
+            Fchart.destroy();
+            Fchart = new Chart(ctx, myChart);
+
+        });
+
+
+    </script>
 
 
 {% endblock %}
