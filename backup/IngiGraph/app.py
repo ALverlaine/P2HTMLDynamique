@@ -35,7 +35,7 @@ def cours1_G2():
 @app.route('/cours1_G3.html')
 def cours1_G3():
     l = subm_time_graph("LSINF1252", "2020-01-15T00:00", "2020-3-22T00:00")
-    return render_template('cours/cours1/cours1_G2.html', label=l[2], cours=l[1], val=l[3], type=l[0], bordercolor=l[4],
+    return render_template('cours/cours1/cours1_G3.html', label=l[2], cours=l[1], val=l[3], type=l[0], bordercolor=l[4],
                            background=l[5])
 
 #______________________________________________________________________
@@ -61,7 +61,7 @@ def cours2_G2():
 @app.route('/cours2_G3.html')
 def cours2_G3():
     l = subm_time_graph("LEPL1402", "2020-02-15T00:00", "2020-02-22T00:00")
-    return render_template('cours/cours1/cours1_G2.html', label=l[2], cours=l[1], val=l[3], type=l[0], bordercolor=l[4],
+    return render_template('cours/cours1/cours1_G3.html', label=l[2], cours=l[1], val=l[3], type=l[0], bordercolor=l[4],
                            background=l[5])
 
 
@@ -86,7 +86,7 @@ def cours3_G2():
 @app.route('/cours3_G3.html')
 def cours3_G3():
     l = subm_time_graph("LSINF1101-PYTHON", "2020-02-15T00:00", "2020-02-22T00:00")
-    return render_template('cours/cours1/cours1_G2.html', label=l[2], cours=l[1], val=l[3], type=l[0], bordercolor=l[4],
+    return render_template('cours/cours1/cours1_G3.html', label=l[2], cours=l[1], val=l[3], type=l[0], bordercolor=l[4],
                            background=l[5])
 
 

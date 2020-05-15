@@ -15,7 +15,7 @@
           <div class="">
               <br>
               <h2>
-                  Cours disponible :
+                  <font size ="4">Exercices disponibles pour ce cours : </font>
               </h2>
 
           </div>
@@ -24,7 +24,7 @@
           <br>
           <div class="center-align">
               <select id="liste">
-                  <option selected>Séléctionnez un cours!</option>
+                  <option selected>Séléctionnez un exercice</option>
                   <script>
                       var tasks = {{ tasks|tojson }}
                       for(i=0; i<tasks.length; i++){
@@ -44,7 +44,7 @@
           <div class="container">
               <br>
               <h2>
-                  Graphique :
+                  Précisions sur un exercice choisi :
               </h2>
               <br>
               <br>
@@ -85,7 +85,26 @@
                     borderWidth: 2,
                     data: data[index]
                 }]
-            }};
+            },
+            options: {
+                 scales: {
+                     xAxe: [{
+                         scaleLabel: {
+                             display: true,
+                             labelString: 'Période'
+                         }
+                     }],
+                     yAxe: [{
+                         scaleLabel: {
+                             display: true,
+                             labelString: 'Nombre de soumissions'
+                         }
+                     }]
+                 }
+            }
+
+
+        };
 
             Fchart.destroy();
             Fchart = new Chart(ctx, myChart);
